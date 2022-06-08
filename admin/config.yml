@@ -70,5 +70,69 @@ collections:
           default: false,
           hint: "Display podcast in home's highlights",
         }
+  - name: "gobcentral" # Used in routes, e.g., /admin/collections/podcast
+    label: "Gobierno Central" # Used in the UI
+    folder: "src/gobcentral" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - { name: "title", label: "Title" }
+      - { name: "ano", label: "Año" }
+      - { name: "slider", label: "slider", widget: "image" }
+      - { name: "resumen1", label: "Resumen Aprobado" }
+      - { name: "resumen2", label: "Resumen Ejecutado" }
+      - { name: "resumen3", label: "Resumen Porcentaje" }
+      - { name: "grafica", label: "Gráfica Ejecucion" }
+      - { name: "tabla", label: "Tabla Ejecución" }
+  - name: "municipal" # Used in routes, e.g., /admin/collections/podcast
+    label: "Municipal" # Used in the UI
+    folder: "src/municipal" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - { name: "title", label: "Title" }
+      - { name: "ano", label: "Año" }
+      - { name: "slider", label: "slider", widget: "image" }
+      - { name: "resumen1", label: "Resumen Aprobado" }
+      - { name: "resumen2", label: "Resumen Ejecutado" }
+      - { name: "resumen3", label: "Resumen Porcentaje" }
+      - { name: "grafica", label: "Gráfica Ejecucion" }
+      - { name: "tabla", label: "Tabla Ejecución" }
+  - name: "obraspublicas" # Used in routes, e.g., /admin/collections/podcast
+    label: "Obras Públicas" # Used in the UI
+    folder: "src/obraspublicas" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - { name: "title", label: "Title" }
+      - { name: "ano", label: "Año" }
+      - { name: "slider", label: "slider", widget: "image" }
+      - { name: "resumen1", label: "Resumen Aprobado" }
+      - { name: "resumen2", label: "Resumen Ejecutado" }
+      - { name: "resumen3", label: "Resumen Porcentaje" }
+      - { name: "grafica", label: "Gráfica Ejecucion" }
+      - { name: "tabla", label: "Tabla Ejecución" }
+  - name: "contratacionespublicas" # Used in routes, e.g., /admin/collections/podcast
+    label: "Contrataciones Públicas" # Used in the UI
+    folder: "src/contratacionespublicas" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - { name: "title", label: "Title" }
+      - { name: "ano", label: "Año" }
+      - { name: "slider", label: "slider", widget: "image" }
+      - { name: "resumen1", label: "Resumen Aprobado" }
+      - { name: "resumen2", label: "Resumen Ejecutado" }
+      - { name: "resumen3", label: "Resumen Porcentaje" }
+      - { name: "grafica", label: "Gráfica Ejecucion" }
+      - { name: "tabla", label: "Tabla Ejecución" }
 
 show_preview_links: true
