@@ -15399,7 +15399,7 @@ body:not(.device-touch) #gotoTop {
 }
 
 #gotoTop:hover {
-  background-color: #1abc9c;
+  background-color: #F1D61B;
 }
 
 /* ----------------------------------------------------------------
@@ -18587,4 +18587,38 @@ label.checkbox {
     bottom: 0;
     opacity: 1;
   }
+}
+
+
+.podcast-span{
+  color: #fff;
+}
+
+.podcast-title{
+  color: #fff;
+  font-family: 'Poppins-Bold', sans-serif!important;
+  font-size: 40px;
+  font-weight: 700!important;
+}
+
+.podcast-description{
+  color: #fff;
+  font-family: 'Poppins-SemiBold', sans-serif!important;
+  font-size: 20px;
+  font-weight: 300!important;
+}
+
+.podcast-button{
+  color: black;
+  padding: 15px 25px;
+  border-radius: 5px/2px;
+  align-self: center;
+  background-color: #F1D61B;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.podcast-button:hover{
+  color: black;
+  background: #E0C929;
 }
