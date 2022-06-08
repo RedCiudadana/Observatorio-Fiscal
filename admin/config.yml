@@ -86,6 +86,13 @@ collections:
       - { name: "resumen3", label: "Resumen Porcentaje" }
       - { name: "grafica", label: "Gráfica Ejecucion" }
       - { name: "tabla", label: "Tabla Ejecución" }
+      - {
+          name: "highlight",
+          label: "Highlight",
+          widget: "boolean",
+          default: false,
+          hint: "Display posts in home's highlights",
+        }
   - name: "municipal" # Used in routes, e.g., /admin/collections/podcast
     label: "Municipal" # Used in the UI
     folder: "src/municipal" # The path to the folder where the documents are stored
@@ -102,6 +109,13 @@ collections:
       - { name: "resumen3", label: "Resumen Porcentaje" }
       - { name: "grafica", label: "Gráfica Ejecucion" }
       - { name: "tabla", label: "Tabla Ejecución" }
+      - {
+          name: "highlight",
+          label: "Highlight",
+          widget: "boolean",
+          default: false,
+          hint: "Display posts in home's highlights",
+        }
   - name: "obraspublicas" # Used in routes, e.g., /admin/collections/podcast
     label: "Obras Públicas" # Used in the UI
     folder: "src/obraspublicas" # The path to the folder where the documents are stored
@@ -118,6 +132,13 @@ collections:
       - { name: "resumen3", label: "Resumen Porcentaje" }
       - { name: "grafica", label: "Gráfica Ejecucion" }
       - { name: "tabla", label: "Tabla Ejecución" }
+      - {
+          name: "highlight",
+          label: "Highlight",
+          widget: "boolean",
+          default: false,
+          hint: "Display posts in home's highlights",
+        }
   - name: "contratacionespublicas" # Used in routes, e.g., /admin/collections/podcast
     label: "Contrataciones Públicas" # Used in the UI
     folder: "src/contratacionespublicas" # The path to the folder where the documents are stored
@@ -134,5 +155,12 @@ collections:
       - { name: "resumen3", label: "Resumen Porcentaje" }
       - { name: "grafica", label: "Gráfica Ejecucion" }
       - { name: "tabla", label: "Tabla Ejecución" }
+      - {
+          name: "highlight",
+          label: "Highlight",
+          widget: "boolean",
+          default: false,
+          hint: "Display posts in home's highlights",
+        }
 
 show_preview_links: true
