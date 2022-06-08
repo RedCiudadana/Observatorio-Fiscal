@@ -123,4 +123,101 @@ permalink: "index.html"
 			</div>
 		</section>
 
+		<!-- Section Grafica 1
+		============================================= -->
+		<section>
+			<div>
+				<div class="section py-6 my-6" style="background-color: #fff">
+					<div class="container">
+						<div class="row justify-content-center align-items-center col-mb-50">
+							Grafica 1
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Tabla 1
+		============================================= -->
+		<section>
+			<div>
+				<div class="section py-6 my-6" style="background-color: #fff">
+					<div class="container">
+						<div class="row justify-content-center align-items-center col-mb-50">
+							Tabla 1
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Blogs y Podcasts
+		============================================= -->
+		<section>
+			<div>
+				<div class="container my-4">
+					<div class="row text-center mb-5"  style="gap:60px;align-items:flex-start">
+						<!--div class="col-lg-6">
+							<h3 class="display-4 fw-bolder mb-3">Publicaciones</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+						</div-->
+
+						<div class="row posts-md col-mb-30 col-xl-8 col-sm-12">
+
+							<h2 class="font-bold text-4xl border-b-2 border-blue-500 mb-4 pb-4" style="text-align:left;margin:1rem 0">Lo último</h2>
+
+							{% for blog in collections.blogs | reverse | limit(5) %}
+					
+				
+							<a href="{{blog.url}}" class="flex border-b-2 pb-4 mb-4 text-current responsive">
+							<img src="{{ blog.data.image }}" alt="Evento" class="w-36">
+							<div class="pl-8 my-auto" style="text-align:left">
+								<h5 class="font-bold text-lg">
+								{{blog.data.title }}
+								</h5>
+								<span class="text-sm">
+								{{blog.data.date | dateFormat('DD/MM/YYYY')}}
+								</span><br>
+								<span class="text-sm">
+								{{blog.data.description}}
+								</span>
+							</div>
+							</a>
+
+							{% endfor %}
+
+							<div class="mb-6" style="display:flex; justify-content:flex-end">
+								<a href="/blogs/index.html"><p class="podcast-button my-2">Más Blogs<i class="icon-arrow-right" style="margin-left:5px"></i></p></a>
+							</div>
+
+							
+				
+						</div>
+
+						<div class="row posts-md col-mb-30 col-xl-3 col-sm-12">
+							<h3 class="uppercase font-bold text-base tracking-wider my-auto mb-4 pb-4"style="text-align:left;margin:1rem 0">Podcasts</h3>
+
+							{% for podcast in collections.podcasts | reverse | limit(4)%}
+							<div class="entry ">
+								<div class="grid-inner">
+									<iframe height="155px" src="{{podcast.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<p class="txt-video">{{podcast.data.description}}</p>
+								</div>
+								
+							</div>
+							{% endfor %}
+
+							<div class="mb-6">
+								<div style="display:flex; justify-content:flex-end">
+								<a href="/podcasts/index.html"><p class="podcast-button my-2">Más Podcasts<i class="icon-arrow-right" style="margin-left:5px"></i></p></a>
+							</div>	
+						</div>	
+						
+
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+
 {% endblock %}
