@@ -504,15 +504,23 @@ span.middot {
 
 .bg-color,
 .bg-color #header-wrap {
-  background-color: #1abc9c !important;
+  background-color: #F1D61B !important;
+}
+
+.bg-image{
+  background-image: url('/elementos/SLIDER/SLIDER-02.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 .color {
-  color: #1abc9c !important;
+  color: #F1D61B !important;
 }
 
 .border-color {
-  border-color: #1abc9c !important;
+  border-color: #F1D61B !important;
 }
 
 .ls0 {
@@ -3926,7 +3934,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item:hover > .menu-link,
 .menu-item.current > .menu-link {
-  color: #fff;
+  color: rgb(112, 112, 112);
 }
 
 .menu-item.sub-menu > .menu-link > div {
@@ -6004,6 +6012,14 @@ body:not(.top-search-open)
 /* ----------------------------------------------------------------
 	Slider
 -----------------------------------------------------------------*/
+
+.text-slider{
+  color: #000!important;
+  font-family: 'Poppins-Bold', sans-serif!important;
+  font-size: 30px!important;
+  line-height: 35px;
+  font-weight: 800;
+}
 
 .slider-element {
   position: relative;
