@@ -3396,13 +3396,13 @@ html[xmlns] .slider-wrap {
 
 #header {
   position: relative;
-  background-color: #fff;
+  background-color: #F1D61B;
   border-bottom: 1px solid #f5f5f5;
 }
 
 #header-wrap {
   position: relative;
-  background-color: #fff;
+  background-color: #F1D61B;
   width: 100%;
 }
 
@@ -18554,8 +18554,4 @@ label.checkbox {
     bottom: 0;
     opacity: 1;
   }
-}
-
-#wrapper {
-  display: none;
 }
