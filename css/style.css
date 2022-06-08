@@ -18622,3 +18622,18 @@ label.checkbox {
   color: black;
   background: #E0C929;
 }
+
+.page-button{
+  color: black;
+  padding: 15px 25px;
+  border-radius: 5px/2px;
+  align-self: center;
+  background-color: #F1D61B;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.page-button:hover{
+  color: black;
+  background: #E0C929;
+}
