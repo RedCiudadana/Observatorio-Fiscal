@@ -1,0 +1,5 @@
+{
+    "tags": "gobcentral",
+    "permalink": "gobcentral/{{ page.fileSlug }}/index.html",
+    "layout": "layouts/gobcentral.njk"
+}

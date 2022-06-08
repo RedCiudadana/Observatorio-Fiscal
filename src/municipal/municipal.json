@@ -1,0 +1,5 @@
+{
+    "tags": "municipal",
+    "permalink": "municipal/{{ page.fileSlug }}/index.html",
+    "layout": "layouts/municipal.njk"
+}

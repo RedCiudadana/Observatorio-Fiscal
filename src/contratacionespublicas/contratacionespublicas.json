@@ -1,0 +1,5 @@
+{
+    "tags": "contratacionespublicas",
+    "permalink": "contrataciones/{{ page.fileSlug }}/index.html",
+    "layout": "layouts/contratacionespublica.njk"
+}

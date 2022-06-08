@@ -6021,6 +6021,23 @@ body:not(.top-search-open)
   font-weight: 800;
 }
 
+.text-titles{
+  color: #000!important;
+  font-family: 'Poppins-Bold', sans-serif!important;
+  font-size: 25px!important;
+  line-height: 35px;
+  font-weight: 900!important;
+}
+
+.text-titles2{
+  color: #000!important;
+  font-family: 'Poppins-Bold', sans-serif!important;
+  font-size: 20px!important;
+  line-height: 35px;
+  font-weight: 500!important;
+  letter-spacing: 0.2px;
+}
+
 .slider-element {
   position: relative;
   width: 100%;
