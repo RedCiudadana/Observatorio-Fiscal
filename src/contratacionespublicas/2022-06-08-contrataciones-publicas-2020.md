@@ -11,5 +11,5 @@ grafica: <div class="flourish-embed flourish-hierarchy"
 tabla: <div class="flourish-embed flourish-table"
   data-src="visualisation/2099793"><script
   src="https://public.flourish.studio/resources/embed.js"></script></div>
-highlight: false
+highlight: true
 ---
