@@ -4170,6 +4170,12 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     transition: margin 0.4s ease, padding 0.4s ease;
   }
 
+  @media only screen and (max-width: 1100px) {
+    .menu-link {
+      padding: 39px 5px;
+    }
+  }
+
   .header-size-sm .menu-container > .menu-item > .menu-link {
     padding-top: 19px;
     padding-bottom: 19px;

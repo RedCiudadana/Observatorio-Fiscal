@@ -1,18 +1,19 @@
 ---
-permalink: "index.html"
+permalink: "contratacionespublicas/index.html"
 ---
 
 {% extends "src/base.njk" %}
 
 {% block head %}
-<title>Observatorio Fiscal | Red Ciudadana</title>
+<title>Contratacionces Públicas | Observatorio Fiscal</title>
 {% endblock %}
 
 {% block content %}
-
+    {% for item in collections.gobcentral %}
+    {% if item.data.ano === '2022' %}
         <!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element bg-color" style="background-image: url('/elementos/SLIDER/SLIDER-02.png')">
+		<section id="slider" class="slider-element bg-color" style="background-image: url('{{item.data.slider}}">
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
@@ -44,7 +45,7 @@ permalink: "index.html"
 								<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-16.png">
 								<div class="fbox-content px-0 ">
 									<h1 class="text-titles2">PRESUPUESTO</h1>
-									<p class="text-titles"></p>
+									<p class="text-titles">{{item.data.resumen1}}</p>
 								</div>
 							</div>
 						</div>
@@ -55,7 +56,7 @@ permalink: "index.html"
 									<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-18.png">
 									<div class="fbox-content px-0 ">
 										<h1 class="text-titles2">EJECUCIÓN</h1>
-										<p class="text-titles"></p>
+										<p class="text-titles">{{item.data.resumen2}}</p>
 									</div>
 								</div>
 							</div>
@@ -68,7 +69,7 @@ permalink: "index.html"
 										<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-17.png">
 										<div class="fbox-content px-0 ">
 											<h1 class="text-titles2">% EJECUCIÓN</h1>
-											<p class="text-titles"></p>
+											<p class="text-titles">{{item.data.resumen3}}</p>
 										</div>
 									</div>
 								</div>
@@ -130,7 +131,7 @@ permalink: "index.html"
 				<div class="section py-6 my-6" style="background-color: #fff">
 					<div class="container">
 						<div class="row justify-content-center align-items-center col-mb-50">
-							Grafica 1
+							<embed class="w-100 my-4" src="{{item.data.grafica}}">
 						</div>
 					</div>
 				</div>
@@ -144,7 +145,7 @@ permalink: "index.html"
 				<div class="section py-6 my-6" style="background-color: #fff">
 					<div class="container">
 						<div class="row justify-content-center align-items-center col-mb-50">
-							Tabla 1
+							<embed class="w-100 my-4" src="{{item.data.tabla}}">
 						</div>
 					</div>
 				</div>
@@ -219,5 +220,7 @@ permalink: "index.html"
 			</div>
 		</div>
 	</section>
+    {% endif %}
+    {% endfor %}
 
 {% endblock %}
