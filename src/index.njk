@@ -24,7 +24,8 @@ permalink: "index.html"
 				</div>
 			</div>
         </section>
-
+		{% for item in collections.gobcentral %}
+		{% if item.data.higlhight === True %}
 		<!-- Content
 		============================================= -->
 		<section id="content">
@@ -44,7 +45,7 @@ permalink: "index.html"
 								<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-16.png">
 								<div class="fbox-content px-0 ">
 									<h1 class="text-titles2">PRESUPUESTO</h1>
-									<p class="text-titles">Q </p>
+									<p class="text-titles">Q {{item.data.resumen1}}</p>
 								</div>
 							</div>
 						</div>
@@ -55,7 +56,7 @@ permalink: "index.html"
 									<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-18.png">
 									<div class="fbox-content px-0 ">
 										<h1 class="text-titles2">EJECUCIÓN</h1>
-										<p class="text-titles">Q </p>
+										<p class="text-titles">Q{{item.data.resumen2}} </p>
 									</div>
 								</div>
 							</div>
@@ -68,7 +69,7 @@ permalink: "index.html"
 										<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-17.png">
 										<div class="fbox-content px-0 ">
 											<h1 class="text-titles2">% EJECUCIÓN</h1>
-											<p class="text-titles"></p>
+											<p class="text-titles">{{item.data.resumen3}}</p>
 										</div>
 									</div>
 								</div>
@@ -130,7 +131,7 @@ permalink: "index.html"
 				<div class="section py-6 my-6" style="background-color: #fff">
 					<div class="container">
 						<div class="row justify-content-center align-items-center col-mb-50">
-							Grafica 1
+							{{item.data.grafica | safe}}
 						</div>
 					</div>
 				</div>
@@ -144,12 +145,14 @@ permalink: "index.html"
 				<div class="section py-6 my-6" style="background-color: #fff">
 					<div class="container">
 						<div class="row justify-content-center align-items-center col-mb-50">
-							Tabla 1
+							{{item.data.tabla | safe}}
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+		{% endif %}
+		{% endfor %}
 
 		<!-- Blogs y Podcasts
 		============================================= -->
