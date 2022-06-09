@@ -84,8 +84,18 @@ collections:
       - { name: "resumen1", label: "Resumen Aprobado" }
       - { name: "resumen2", label: "Resumen Ejecutado" }
       - { name: "resumen3", label: "Resumen Porcentaje" }
-      - { name: "grafica", label: "Gráfica Ejecucion" }
-      - { name: "tabla", label: "Tabla Ejecución" }
+      - { name: "grafica", label: "Gráfica Ejecucion", widget: "markdown" }
+      - {
+          name: "fechaactualizaciong",
+          label: "Fecha de Actualización de Gráfica",
+          widget: "date",
+        }
+      - { name: "tabla", label: "Tabla Ejecución", widget: "markdown" }
+      - {
+          name: "fechaactualizaciont",
+          label: "Fecha de Actualización de Tabla",
+          widget: "date",
+        }
       - {
           name: "highlight",
           label: "Highlight",
@@ -107,8 +117,18 @@ collections:
       - { name: "resumen1", label: "Resumen Aprobado" }
       - { name: "resumen2", label: "Resumen Ejecutado" }
       - { name: "resumen3", label: "Resumen Porcentaje" }
-      - { name: "grafica", label: "Gráfica Ejecucion" }
-      - { name: "tabla", label: "Tabla Ejecución" }
+      - { name: "grafica", label: "Gráfica Ejecucion", widget: "markdown" }
+      - {
+          name: "fechaactualizaciong",
+          label: "Fecha de Actualización de Gráfica",
+          widget: "date",
+        }
+      - { name: "tabla", label: "Tabla Ejecución", widget: "markdown" }
+      - {
+          name: "fechaactualizaciont",
+          label: "Fecha de Actualización de Tabla",
+          widget: "date",
+        }
       - {
           name: "highlight",
           label: "Highlight",
@@ -130,8 +150,18 @@ collections:
       - { name: "resumen1", label: "Resumen Aprobado" }
       - { name: "resumen2", label: "Resumen Ejecutado" }
       - { name: "resumen3", label: "Resumen Porcentaje" }
-      - { name: "grafica", label: "Gráfica Ejecucion" }
-      - { name: "tabla", label: "Tabla Ejecución" }
+      - { name: "grafica", label: "Gráfica Ejecucion", widget: "markdown" }
+      - {
+          name: "fechaactualizaciong",
+          label: "Fecha de Actualización de Gráfica",
+          widget: "date",
+        }
+      - { name: "tabla", label: "Tabla Ejecución", widget: "markdown" }
+      - {
+          name: "fechaactualizaciont",
+          label: "Fecha de Actualización de Tabla",
+          widget: "date",
+        }
       - {
           name: "highlight",
           label: "Highlight",
@@ -153,8 +183,18 @@ collections:
       - { name: "resumen1", label: "Resumen Aprobado" }
       - { name: "resumen2", label: "Resumen Ejecutado" }
       - { name: "resumen3", label: "Resumen Porcentaje" }
-      - { name: "grafica", label: "Gráfica Ejecucion" }
-      - { name: "tabla", label: "Tabla Ejecución" }
+      - { name: "grafica", label: "Gráfica Ejecucion", widget: "markdown" }
+      - {
+          name: "fechaactualizaciong",
+          label: "Fecha de Actualización de Gráfica",
+          widget: "date",
+        }
+      - { name: "tabla", label: "Tabla Ejecución", widget: "markdown" }
+      - {
+          name: "fechaactualizaciont",
+          label: "Fecha de Actualización de Tabla",
+          widget: "date",
+        }
       - {
           name: "highlight",
           label: "Highlight",

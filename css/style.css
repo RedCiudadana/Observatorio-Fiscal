@@ -3914,7 +3914,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   font-weight: 700;
   font-size: 0.8125rem;
   letter-spacing: 1px;
-  text-transform: uppercase;
   font-family: "Poppins-Regular", sans-serif;
 }
 
@@ -3932,9 +3931,14 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   vertical-align: top;
 }
 
-.menu-item:hover > .menu-link,
-.menu-item.current > .menu-link {
-  color: rgb(112, 112, 112);
+.menu-link div{
+  padding: 2px 5px ;
+}
+
+.menu-link div:hover{
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
 }
 
 .menu-item.sub-menu > .menu-link > div {
