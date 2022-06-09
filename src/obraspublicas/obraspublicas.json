@@ -1,5 +1,4 @@
 {
-    "tags": "onbraspublicas",
-    "permalink": "obras/{{ page.fileSlug }}/index.html",
-    "layout": "layouts/obraspublicas.njk"
+    "tags": "obraspublicas",
+    "permalink": "obras/{{ page.fileSlug }}/index.html"
 }
