@@ -3937,7 +3937,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-link div:hover{
   background: #000;
-  color: #fff;
+  color: #F1D61B;
   border-radius: 4px;
 }
 
@@ -6031,6 +6031,26 @@ body:not(.top-search-open)
   font-weight: 800;
 }
 
+.text-slider2{
+  color: #000!important;
+  font-family: 'Poppins-Bold', sans-serif!important;
+  font-size: 20px!important;
+  line-height: 25px;
+  font-weight: 500;
+  margin: 15px 0;
+  text-align: justify;
+}
+
+.span-slider{
+  background: #000;
+  padding: 5px 15px;
+  color: #F1D61B;
+  font-family: 'Poppins-Bold', sans-serif!important;
+  font-size: 15px!important;
+  line-height: 20px;
+  font-weight: 500;
+}
+
 .text-titles{
   color: #000!important;
   font-family: 'Poppins-Bold', sans-serif!important;
@@ -6139,6 +6159,16 @@ body:not(.stretched) .slider-parallax .slider-inner {
     display: flex;
     flex-grow: 1;
     align-items: center;
+  }
+}
+
+.borde-slider{
+  border-right:1px solid #000;
+}
+
+@media only screen and (max-width: 1100px) {
+  .borde-slider{
+    border:none!important
   }
 }
 
@@ -18626,6 +18656,7 @@ label.checkbox {
   background-color: #F1D61B;
   text-transform: uppercase;
   width: fit-content;
+  font-weight: 600;
 }
 
 .podcast-button:hover{
@@ -18641,6 +18672,7 @@ label.checkbox {
   background-color: #F1D61B;
   text-transform: uppercase;
   width: fit-content;
+  font-weight: 600;
 }
 
 .page-button:hover{
