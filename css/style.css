@@ -3915,6 +3915,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   font-size: 0.8125rem;
   letter-spacing: 1px;
   font-family: "Poppins-Regular", sans-serif;
+  transition: 0.5s;
 }
 
 .menu-link span {
@@ -3933,6 +3934,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-link div{
   padding: 2px 5px ;
+  transition: 0.5s;
 }
 
 .menu-link div:hover{
