@@ -1,0 +1,76 @@
+---
+permalink: "/contacto/index.html"
+---
+
+{% extends "src/base.njk" %}
+
+{% block head %}
+<title>Red Ciudadana - Contacto</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+{% endblock %}
+
+{% block content %}
+
+            <!-- contact-address-area-strat -->
+            <div class="container pt-130 pb-130">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-sm-12 col-md-12 mb-40">
+                        <h1 style="font-size:30px;" class="mb-20">Para más información de eventos, dudas o de nuestro trabajo</h1>
+                        <p class="mb-20">Llena el siguiente formulario y nuestro equipo te estará contactando</p>
+                        <h6 class="mb-20">Síguenos a través de nuestras redes sociales</h6>
+                        <div class="row">
+                            <div class="col-lg-7 col-sm-12 d-flex">
+                                <a target="_blank" href="https://www.facebook.com/Redciudadanagt"><img  src="/elementos/REDES-43.png"></a>
+                                <a target="_blank" href="https://twitter.com/redxguate"><img src="/elementos/REDES-44.png"></a>
+                                <a target="_blank" href="https://www.instagram.com/redxguate/"><img  src="/elementos/REDES-45.png"></a>
+                                <a target="_blank" href="https://www.youtube.com/c/RedciudadanaOrgGt"><img src="/elementos/REDES-46.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-sm-12 col-md-12">
+                        <form class="contact_form" id="form" target="_self" onsubmit="return postToForm();" action="" autocomplete="off">
+                            <input id="name" name="entry.1064235632" type="string" required placeholder="Nombre Completo"/>
+                            <input id="email" name="entry.1330832081" type="email" required placeholder="Correo Electrónico"/>
+                            <input id="affair" name="entry.1233483376" type="string" placeholder="Asunto / Motivo de Contacto"/>
+                            <textarea id="message" name="entry.608682247" type="string" required placeholder="Mensaje"></textarea>
+                            <button id="send" type="submit" class="page-button">Envíanos un Mensaje</button>
+                        </form>
+
+                        <h3 id="success-msg" style="display:none;"> Su mensaje ha sido enviado</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- contact-address-area-end -->
+            <!--iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2DNIWZVQugZ_G-rQCzO9EKpWr66ZXe8rbBBHtKYduKIeXyQ/viewform?embedded=true" width="640" height="1025" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe-->
+
+{% endblock %}
+
+{% block body_javascripts %}
+        <script>
+            function postToForm() {
+                var field1 = $("#name").val();
+                var field2 = $("#email").val();
+                var field3 = $("#affair").val();
+                var field4 = $("#message").val();
+
+                $.ajax({
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSe2DNIWZVQugZ_G-rQCzO9EKpWr66ZXe8rbBBHtKYduKIeXyQ/formResponse?",
+					data: {"entry.1064235632": field1, "entry.1330832081": field2, "entry.1233483376": field3, "entry.608682247": field4},
+                    type: "POST",
+                    dataType: "xml",
+                    success: function(d)
+					{
+					},
+					error: function(x, y, z)
+						{
+
+							$('#success-msg').show();
+							$('#form').hide();
+							
+						}
+                });
+				return false;
+            }
+        </script>
+
+{% endblock %}

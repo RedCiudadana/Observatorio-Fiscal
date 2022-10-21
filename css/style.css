@@ -19375,3 +19375,21 @@ label.checkbox {
   max-height: 100px;
   max-width: 100px;
 }
+
+.contact_form{
+  width: 100%;
+}
+
+.contact_form input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 0.5px solid #ccc;
+}
+
+.contact_form textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 0.5px solid #ccc;
+}
