@@ -6070,6 +6070,15 @@ body:not(.top-search-open)
   letter-spacing: 0.2px;
 }
 
+.text-titles2{
+  color: #000!important;
+  font-family: 'Poppins-Bold', sans-serif!important;
+  font-size: 20px!important;
+  line-height: 25px;
+  font-weight: 500!important;
+  letter-spacing: 0.2px;
+}
+
 .slider-element {
   position: relative;
   width: 100%;
@@ -19393,3 +19402,60 @@ label.checkbox {
   padding: 10px;
   border: 0.5px solid #ccc;
 }
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #e6edf3;
+  border-radius:7px;
+  border: 1px solid #e6edf3;
+}
+
+.tab {
+  background-color: #fff;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  color: #000!important;
+  font-family: 'Poppins-Bold', sans-serif!important;
+  font-size: 17px!important;
+  font-weight: 900!important;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid #e6edf3;
+}
+
+.tab.active {
+  background-color: #f0d61a;
+}
+
+.tab:hover {
+  background-color: #f0d61a;
+}
+
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
