@@ -18,7 +18,10 @@
 
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     {% block head %}
     {% endblock %}
 
@@ -53,6 +56,12 @@
 							<a href="/index.html" class="retina-logo"><img style="padding:5%" src="/elementos/LOGOTIPO/LOGOTIPO-NEGRO.png" alt="Canvas Logo"></a>
 						</div><!-- #logo end -->
 
+						<!-- Botón de hamburguesa -->
+						<div class="menu-toggle">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
 
 						<!-- Primary Navigation
 						============================================= -->
@@ -71,6 +80,17 @@
 							</ul>
 
 						</nav><!-- #primary-menu end -->
+
+						
+
+						<div class="redes">
+							<a target="_blank" href="https://www.facebook.com/Redciudadanagt"><i class="fab fa-facebook-f"></i></a>
+							<a target="_blank" href="https://twitter.com/redxguate"><i class="fa-brands fa-x-twitter"></i></a>
+							<a target="_blank" href="https://www.instagram.com/redxguate/"><i class="fab fa-instagram "></i></a>
+							<!--a target="_blank" href="https://www.youtube.com/c/RedciudadanaOrgGt"><i class="fab fa-youtube"></i></a-->
+						</div>
+
+						
 
 					</div>
 				</div>
@@ -98,10 +118,10 @@
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-3 col-sm-9">
                             <div class="d-flex align-items-center justify-content-end">
-                                <a target="_blank" style="margin:0 3px" href="https://www.facebook.com/Redciudadanagt"><img src="/elementos/REDES-27.png"></a>
-                                <a target="_blank" style="margin:0 3px" href="https://twitter.com/redxguate"><img src="/elementos/REDES-28.png"></a>
-                                <a target="_blank" style="margin:0 3px" href="https://www.instagram.com/redxguate/"><img src="/elementos/REDES-29.png"></a>
-                                <a target="_blank" style="margin:0 3px" href="https://www.youtube.com/channel/UCQwc62j7beStZYFzwPxBEQg"><img src="/elementos/REDES-30.png"></a>
+                                <a target="_blank" style="margin:0 3px" href="https://www.facebook.com/Redciudadanagt"><img src="/elementos/fb-footer.png"></a>
+                                <a target="_blank" style="margin:0 3px" href="https://twitter.com/redxguate"><img src="/elementos/x-footer.png"></a>
+                                <a target="_blank" style="margin:0 3px" href="https://www.instagram.com/redxguate/"><img src="/elementos/ig-footer.png"></a>
+                                <a target="_blank" style="margin:0 3px" href="https://www.tiktok.com/@redxguate"><img src="/elementos/tk-footer.png"></a>
                             </div>
                         </div>
                     </div>
@@ -170,6 +190,23 @@
 		})(jQuery);
 	</script>
 
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		// Agrega la funcionalidad del botón de hamburguesa
+		document.querySelector('.menu-toggle').addEventListener('click', function() {
+			var menuContainer = document.querySelector('.menu-container');
+
+			// Cambia el estilo de visualización del menú
+			if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+				menuContainer.style.display = 'block';
+			} else {
+				menuContainer.style.display = 'none';
+			}
+		});
+	});
+	</script>
+
+	
     {% block body_javascripts %}
 
     {% endblock %}
