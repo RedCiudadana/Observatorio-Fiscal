@@ -4,7 +4,7 @@ const { AssetCache } = require("@11ty/eleventy-fetch");
 
 module.exports = async function () {
   // URL for the new API
-  const url = 'https://redciudadana.github.io/data_dataverso/0_datos_municipales.json';
+  const url = 'https://data-dataverso.netlify.app/assets/conjuntos/ranking_municipal_segeplan.json';
 
   // Fetch options (no authorization needed for this URL)
   const fetchOptions = {
