@@ -1,3 +1,6 @@
 node_modules
 _site
 .cache
+_data/ejecucion_presupuesto_de_egresos_2022_gobierno_central.json
+_data/ejecucion_presupuesto_de_egresos_2022_gobierno_central.xlsx
+_data/turn_to_json.py
