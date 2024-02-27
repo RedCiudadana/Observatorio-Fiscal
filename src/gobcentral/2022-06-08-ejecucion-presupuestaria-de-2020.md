@@ -6,11 +6,11 @@ resumen1: 500,000,000
 resumen2: 350,000,000
 resumen3: 75%
 grafica: <div class="flourish-embed flourish-hierarchy"
-  data-src="visualisation/10281820"><script
+  data-src="visualisation/16887644"><script
   src="https://public.flourish.studio/resources/embed.js"></script></div>
 fechaactualizaciong: 2022-06-13T16:56:01.031Z
 tabla: <div class="flourish-embed flourish-table"
-  data-src="visualisation/2099793"><script
+  data-src="visualisation/16887679"><script
   src="https://public.flourish.studio/resources/embed.js"></script></div>
 fechaactualizaciont: 2022-06-13T16:56:01.054Z
 highlight: true
