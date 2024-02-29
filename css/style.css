@@ -3913,8 +3913,8 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 .menu-link {
   display: block;
   line-height: 22px;
-  padding: 14px 5px;
-  color: #444;
+  padding: 14px 2px;
+  color: #000;
   font-weight: 700;
   font-size: 0.8125rem;
   letter-spacing: 1px;
@@ -4174,7 +4174,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   }
 
   .menu-link {
-    padding: 39px 15px;
+    padding: 39px 5px;
     -webkit-transition: margin 0.4s ease, padding 0.4s ease;
     -o-transition: margin 0.4s ease, padding 0.4s ease;
     transition: margin 0.4s ease, padding 0.4s ease;
@@ -6047,6 +6047,16 @@ body:not(.top-search-open)
   text-align: left;
 }
 
+.text-slider3{
+  color: #000!important;
+  font-family: 'Poppins-Regular', sans-serif!important;
+  font-size: 17px!important;
+  line-height: 25px;
+  font-weight: 500;
+  margin: 15px 0;
+  text-align: left;
+}
+
 .span-slider{
   background: #000;
   padding: 5px 15px;
@@ -6059,7 +6069,7 @@ body:not(.top-search-open)
 
 .text-titles{
   color: #000!important;
-  font-family: 'Poppins-Bold', sans-serif!important;
+  font-family: 'Poppins-Regular', sans-serif!important;
   font-size: 25px!important;
   line-height: 30px;
   font-weight: 900!important;
@@ -6067,7 +6077,7 @@ body:not(.top-search-open)
 
 .text-titles2{
   color: #000!important;
-  font-family: 'Poppins-Bold', sans-serif!important;
+  font-family: 'Poppins-Regular', sans-serif!important;
   font-size: 20px!important;
   line-height: 35px;
   font-weight: 500!important;
@@ -6076,7 +6086,7 @@ body:not(.top-search-open)
 
 .text-titles2{
   color: #000!important;
-  font-family: 'Poppins-Bold', sans-serif!important;
+  font-family: 'Poppins-Regular', sans-serif!important;
   font-size: 20px!important;
   line-height: 25px;
   font-weight: 500!important;
@@ -19525,3 +19535,6 @@ label.checkbox {
   }
 }
 
+#flourish-header-title{
+  text-align: left!important;
+}
