@@ -4231,9 +4231,10 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
   .sub-menu-item a{
     color: #000!important;
-    padding: 0;
+    padding: 0 10px;
     margin:5px 0;
     transition: 0.5s;
+    line-height: 30px;
   }
 
   .sub-menu-item a:hover{
