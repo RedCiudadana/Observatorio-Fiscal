@@ -1,0 +1,4 @@
+{
+    "tags": "justicia",
+    "permalink": "justicia/{{ page.fileSlug }}/index.html"
+}

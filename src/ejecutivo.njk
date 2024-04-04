@@ -1,15 +1,15 @@
 ---
-permalink: "gobcentral/index.html"
+permalink: "ejecutivo/index.html"
 ---
 
 {% extends "src/base.njk" %}
 
 {% block head %}
-<title>Gobierno Central | Observatorio Fiscal</title>
+<title>Ejecutivo | Observatorio Fiscal</title>
 {% endblock %}
 
 {% block content %}
-    {% for item in collections.gobcentral %}
+    {% for item in collections.ejecutivo %}
     {% if item.data.higlhight === True %}
         <!-- Slider
 		============================================= -->
@@ -17,7 +17,7 @@ permalink: "gobcentral/index.html"
 			<div class="container">
 				<div class="row d-flex" style="justify-content:space-between">
 					<div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
-						<h2 class="text-slider">Gobierno Central</h2>
+						<h2 class="text-slider">Ejecutivo</h2>
 						<br>
 						<h2 class="text-slider2">Conoce información detallada sobre la ejecución presupuestaria de forma mensualizada a nivel
 							trnasaccional. Además, enconrtarás información de instituciones relacionadas, evolución delpago/debengo, proveedroes/receptores 
@@ -38,7 +38,7 @@ permalink: "gobcentral/index.html"
 								<div class="mx-4">
 									<p class="text-slider3 d-flex align-items-center"><img style="width: 30px;height: 20px;padding-right: 10px;" src="/elementos/02_ICONOS/ICONO-24.png">Estado de avance 30-05-2022</p>
 									<h2 class="text-slider" style="font-size:45px!important">Q{{item.data.resumen1}}</h2>
-									<p class="text-slider2">PRESUPUESTO DEVENGADO</p>
+									<p class="text-slider2">PRESUPUESTO APROBADO</p>
 								</div>
 							</div>
 						</div>

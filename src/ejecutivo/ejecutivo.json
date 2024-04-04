@@ -1,0 +1,4 @@
+{
+    "tags": "ejecutivo",
+    "permalink": "ejecutivo/{{ page.fileSlug }}/index.html"
+}
