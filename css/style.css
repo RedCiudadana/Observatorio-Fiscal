@@ -19553,3 +19553,31 @@ label.checkbox {
 #flourish-header-title{
   text-align: left!important;
 }
+
+.blog-box{
+  display: block;
+  height: 30%;
+}
+
+.blog-box img{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px 5px 0 0;
+}
+
+.blog-box div{
+  border: 1px solid black;
+  padding: 5%;
+  height: 100%;
+  border-radius: 0 0 5px 5px;
+}
+
+.blog-box div h5{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.blog-box div p{
+  font-size: 15px;
+  margin-bottom: 0;
+}

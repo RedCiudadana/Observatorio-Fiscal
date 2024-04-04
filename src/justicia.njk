@@ -47,17 +47,60 @@ permalink: "justicia/index.html"
 			</div>
         </section>
 
+		<section>
+			<div>
+				<div class="container clearfix py-6">
+					<div class="row my-1 py-1">
+						<h2 class="text-titles">Datos Sobre Presupuesto: </h2>
+						<h2 class="text-titles2">Fecha de Última Actualización {{item.data.fechaactualizaciong | dateFormat('DD/MM/YYYY')}}</h2>
+					</div>
+
+					<div class="row justify-content-center ">
+						<div class="col-sm-12 col-lg-4">
+							<div class="d-flex cuadro_new">
+								<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-16.png">
+								<div class="fbox-content px-0 ">
+									<h1 class="text-titles2">PRESUPUESTO</h1>
+									<p class="text-titles m-0">Q {{item.data.resumen1}}</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-12 col-lg-4">
+							<div class="d-flex cuadro_new">
+								<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-16.png">
+								<div class="fbox-content px-0 ">
+									<h1 class="text-titles2">EJECUCIÓN</h1>
+									<p class="text-titles m-0">Q {{item.data.resumen2}}</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-12 col-lg-4">
+							<div class="d-flex cuadro_new">
+								<img width="80px" style="padding:5px" src="/elementos/02_ICONOS/ICONO-16.png">
+								<div class="fbox-content px-0 ">
+									<h1 class="text-titles2">% EJECUCIÓN</h1>
+									<p class="text-titles m-0">{{item.data.resumen3}}</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</section>
+
 
 
 		<!-- Section Grafica 1
 		============================================= -->
-		<section>
-			<div>
-				<div class="section py-4" style="background-color: #fff">
-					<div class="container">
-						<div class="row justify-content-center align-items-center col-mb-50">
-							{{item.data.grafica | safe}}
-						</div>
+		<section id="ejecucion">
+			<div class="section py-4" style="background-color: #fff">
+				<div class="container">
+					<div class="row justify-content-center align-items-center col-mb-50">
+						{{item.data.grafica | safe}}
 					</div>
 				</div>
 			</div>
@@ -66,12 +109,62 @@ permalink: "justicia/index.html"
 		<!-- Section Tabla 1
 		============================================= -->
 		<section>
-			<div>
-				<div class="section py-4 my-6" style="background-color: #fff">
-					<div class="container">
-						<div class="row justify-content-center align-items-center col-mb-50">
-							{{item.data.tabla | safe}}
+			<div class="section py-4 my-6" style="background-color: #fff">
+				<div class="container">
+					<div class="row justify-content-center align-items-center col-mb-50">
+						{{item.data.tabla | safe}}
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Gasto Publico
+		============================================= -->
+		<section id="gastopublico">
+			<div class="section pt-2 pb-6  my-6" style="background-color: #fff">
+				<div class="container">
+					<div class="row mb-4">
+						<div class="col-lg-12 text-center">
+							<h2 class="text-titles">Gasto Público</h2>
 						</div>
+					</div>
+					<div class="row col-mb-50">
+						{% for blog in collections.gaspubeje%}
+						<div class="col-lg-4 h-100">
+							<a href="{{blog.url}}" class="blog-box h-100">
+								<img src="{{ blog.data.image }}" alt="Evento" class="w-36">
+								<div class="pl-8 my-auto" style="text-align:left">
+									<h5 >
+									{{blog.data.title }}
+									</h5>
+									<p >
+									{{blog.data.date | dateFormat('DD/MM/YYYY')}}
+									</p>
+									<p >
+									{{blog.data.description}}
+									</p>
+								</div>
+							</a>
+						</div>
+						{% endfor %}
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Herramientas de Analisis
+		============================================= -->
+		<section id="herramientas">
+			<div class="section pt-2 pb-6 my-6" style="background-color: #fff">
+				<div class="container">
+					<div class="row mb-4">
+						<div class="col-lg-12 text-center">
+							<h2 class="text-titles">Herramientas de Análisis</h2>
+						</div>
+					</div>
+					<div class="row justify-content-center align-items-center col-mb-50">
+						{{item.data.herramientaanalisis | safe}}
 					</div>
 				</div>
 			</div>
