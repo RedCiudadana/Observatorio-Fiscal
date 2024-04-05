@@ -19581,3 +19581,21 @@ label.checkbox {
   font-size: 15px;
   margin-bottom: 0;
 }
+
+table{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+table tr {
+  border-bottom: 1px solid black!important;
+  padding: 20px;
+}
+
+table tr th{
+  padding: 20px;
+}
+
+table tr td{
+  padding: 20px;
+}
