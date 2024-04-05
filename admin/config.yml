@@ -294,7 +294,7 @@ collections:
       - { name: "sector", label: "Sector" }
       - { name: "fecha", label: "Fecha", widget: "date"}
       - { name: "descripcion", label: "Descripción" }
-      - { name: "enlace", label: "Enlace", widget: "file" }
+      - { name: "enlace", label: "Enlace"}
       - { name: "formato", label: "Formato" }
       
 
