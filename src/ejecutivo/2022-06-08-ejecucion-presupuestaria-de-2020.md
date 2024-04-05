@@ -13,5 +13,8 @@ tabla: <div class="flourish-embed flourish-table"
   data-src="visualisation/16887679"><script
   src="https://public.flourish.studio/resources/embed.js"></script></div>
 fechaactualizaciont: 2022-06-13T16:56:01.054Z
+herramientaanalisis: <div class="flourish-embed"
+  data-src="story/2318902"><script
+  src="https://public.flourish.studio/resources/embed.js"></script></div>
 highlight: true
 ---
