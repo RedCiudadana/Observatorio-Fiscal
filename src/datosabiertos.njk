@@ -1,0 +1,66 @@
+---
+permalink: "/datosabiertos/index.html"
+---
+
+{% extends "src/base.njk" %}
+
+{% block head %}
+<title>Observatorio Fiscal | Datos Abiertos</title>
+{% endblock %}
+
+{% block content %}
+
+        <!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element bg-color" style="background-image: url('/elementos/SLIDER/SLIDERS/2000x300/WEB_PA_ELEMENTOS_04.png');background-size:cover;">
+			<div class="container" style="padding: 20px 0;">
+				<div class="row d-flex">
+					<div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+
+						<h2 class="text-slider">Datos Abiertos
+						</h2>
+
+					</div>
+				</div>
+			</div>
+        </section>
+
+        <!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap py-4">
+
+				<!-- Nosotros
+				============================================= -->
+
+				<div class="container clearfix py-2">
+					<div class="row my-1 py-6">
+                        <table>
+                            <tr>
+                              <th>No.</th>
+                              <th>Nombre</th>
+                              <th>Sector</th>
+                              <th>Fecha</th>
+                              <th>Descripcion</th>
+                              <th>Enlace</th>
+                              <th>Formato</th>
+                            </tr>
+                            {% for dato in  collections.datosabiertos%}
+                            <tr>
+                              <td>{{dato.data.numero}}</td>
+                              <td>{{dato.data.title}}</td>
+                              <td>{{dato.data.sector}}</td>
+                              <td>{{dato.data.fecha | dateFormat('DD/MM/YYYY')}}</td>
+                              <td>{{dato.data.descripcion}}</td>
+                              <td><a href="{{dato.data.enlace}}">Link</a></td>
+                              <td>{{dato.data.formato}}</td>
+                            </tr>
+                            {% endfor %}
+                       
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{% endblock %}

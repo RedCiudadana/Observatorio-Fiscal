@@ -1,0 +1,4 @@
+{
+    "tags": "datosabiertos",
+    "permalink": "datosabiertos/{{ page.fileSlug }}/index.html"
+}
