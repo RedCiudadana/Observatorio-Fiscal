@@ -19585,6 +19585,7 @@ label.checkbox {
 table{
   border: 2px solid black;
   border-radius: 5px;
+  margin: 30px 0;
 }
 
 table tr {

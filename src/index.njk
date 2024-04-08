@@ -196,12 +196,12 @@ permalink: "index.html"
 		============================================= -->
 		<section>
 			<div>
-				<div class="container my-4">
+				<div class="container my-2">
 					<div class="row text-center mb-5"  style="gap:60px;align-items:flex-start">
 
 						<div class="row posts-md col-mb-30 col-xl-8 col-sm-12">
 
-							<h2 class="font-bold text-4xl border-b-2 border-blue-500 mb-4 pb-4" style="text-align:left;margin:1rem 0">Lo último</h2>
+							<h2 class="text-titles" style="text-align:left;margin:1rem 0">Lo último</h2>
 
 							{% for blog in collections.blogs | reverse | limit(5) %}
 					
@@ -232,7 +232,7 @@ permalink: "index.html"
 						</div>
 
 						<div class="row posts-md col-mb-30 col-xl-3 col-sm-12">
-							<h3 class="uppercase font-bold text-base tracking-wider my-auto mb-4 pb-4"style="text-align:left;margin:1rem 0">Videos</h3>
+							<h3 class="text-titles2"style="text-align:left;margin:1rem 0">Videos</h3>
 
 							{% for video in collections.videos | reverse | limit(4)%}
 							<div class="entry ">
@@ -255,6 +255,42 @@ permalink: "index.html"
 				</div>
 			</div>
 		</section>
+
+		<!-- datos abiertos
+				============================================= -->
+		<section id="content">
+			<div class="content-wrap py-4">
+				<div class="container clearfix py-2">
+					<div class="row my-1 py-2">
+						<h1 class="text-titles">Datos Abiertos</h1>
+						<br><br>
+                        <table>
+                            <tr>
+                              <th>No.</th>
+                              <th>Nombre</th>
+                              <th>Sector</th>
+                              <th>Fecha</th>
+                              <th>Descripcion</th>
+                              <th>Enlace</th>
+                              <th>Formato</th>
+                            </tr>
+                            {% for dato in  collections.datosabiertos%}
+                            <tr class="tr_table">
+                              <td>{{dato.data.numero}}</td>
+                              <td>{{dato.data.title}}</td>
+                              <td>{{dato.data.sector}}</td>
+                              <td>{{dato.data.fecha | dateFormat('DD/MM/YYYY')}}</td>
+                              <td>{{dato.data.descripcion}}</td>
+                              <td><a href="{{dato.data.enlace}}" class="page-button">Descarga</a></td>
+                              <td><span class="page-button">{{dato.data.formato}}</span></td>
+                            </tr>
+                            {% endfor %}
+                       
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 {% endblock %}
 
