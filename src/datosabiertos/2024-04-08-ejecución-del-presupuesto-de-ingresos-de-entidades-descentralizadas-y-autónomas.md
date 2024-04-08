@@ -1,8 +1,8 @@
 ---
 title: Ejecución del presupuesto de ingresos de Entidades Descentralizadas y
   Autónomas 2023
-numero: Entidades Descentralizadas y Autónomas
-sector: "10"
+numero: "10"
+sector: Entidades Descentralizadas y Autónomas
 fecha: 2024-04-08T21:24:02.617Z
 descripcion: Presenta datos de la ejecución analítica del presupuesto de
   ingresos de Entidades Descentralizadas y Autónomas que operan en el Sistema de
