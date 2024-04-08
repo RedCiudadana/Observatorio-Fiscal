@@ -19599,3 +19599,8 @@ table tr th{
 table tr td{
   padding: 20px;
 }
+
+.tr_table{
+  background-color: #efefef;
+  border-radius: 15px;
+}

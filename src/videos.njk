@@ -1,11 +1,11 @@
 ---
-permalink: "blogs/index.html"
+permalink: "videos/index.html"
 ---
 
 {% extends "src/base.njk" %}
 
 {% block head %}
-<title>Observatorio Fiscal | Blogs</title>
+<title>Observatorio Fiscal | Videos</title>
 {% endblock %}
 
 {% block content %}
@@ -17,7 +17,7 @@ permalink: "blogs/index.html"
 				<div class="row d-flex">
 					<div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
 
-						<h2 class="text-slider" style="font-size:40px!important">Blogs
+						<h2 class="text-slider" style="font-size:40px!important">Videos
 						</h2>
 
 					</div>
@@ -44,20 +44,20 @@ permalink: "blogs/index.html"
 
 							<h2 class="font-bold text-4xl border-b-2 border-blue-500 mb-4 pb-4" style="text-align:left;margin:1rem 0">Lo último</h2>
 
-							{% for blog in collections.blogs | reverse | limit(5) %}
+							{% for video in collections.videos | reverse | limit(5) %}
 					
 				
-							<a href="{{blog.url}}" class="flex border-b-2 pb-4 mb-4 text-current responsive">
-							<img src="{{ blog.data.image }}" alt="Evento" class="w-36">
+							<a href="{{video.url}}" class="flex border-b-2 pb-4 mb-4 text-current responsive">
+							<img src="{{ video.data.image }}" alt="Evento" class="w-36">
 							<div class="pl-8 my-auto" style="text-align:left">
 								<h5 class="font-bold text-lg">
-								{{blog.data.title }}
+								{{video.data.title }}
 								</h5>
 								<span class="text-sm">
-								{{blog.data.date | dateFormat('DD/MM/YYYY')}}
+								{{video.data.date | dateFormat('DD/MM/YYYY')}}
 								</span><br>
 								<span class="text-sm">
-								{{blog.data.description}}
+								{{video.data.description}}
 								</span>
 							</div>
 							</a>

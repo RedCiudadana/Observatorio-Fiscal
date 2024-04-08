@@ -46,14 +46,14 @@ permalink: "/datosabiertos/index.html"
                               <th>Formato</th>
                             </tr>
                             {% for dato in  collections.datosabiertos%}
-                            <tr>
+                            <tr class="tr_table">
                               <td>{{dato.data.numero}}</td>
                               <td>{{dato.data.title}}</td>
                               <td>{{dato.data.sector}}</td>
                               <td>{{dato.data.fecha | dateFormat('DD/MM/YYYY')}}</td>
                               <td>{{dato.data.descripcion}}</td>
-                              <td><a href="{{dato.data.enlace}}">Link</a></td>
-                              <td>{{dato.data.formato}}</td>
+                              <td><a href="{{dato.data.enlace}}" class="page-button">Descarga</a></td>
+                              <td><span class="page-button">{{dato.data.formato}}</span></td>
                             </tr>
                             {% endfor %}
                        
