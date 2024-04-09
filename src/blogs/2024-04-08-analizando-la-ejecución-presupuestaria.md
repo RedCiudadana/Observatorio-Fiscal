@@ -1,6 +1,6 @@
 ---
 title: Analizando la Ejecución Presupuestaria
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: La ejecución presupuestaria es un indicador crítico de la
   eficiencia y la eficacia de la gestión gubernamental.
 autor: Red Ciudadana
