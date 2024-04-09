@@ -29,7 +29,7 @@ permalink: "/datosabiertos/index.html"
 
         <!-- Content
 		============================================= -->
-		<section id="content">
+		<section id="content" style="background-color: #f0f0f0ee;">
 			<div class="content-wrap py-4">
 
 				<!-- datos abiertos
@@ -37,32 +37,32 @@ permalink: "/datosabiertos/index.html"
 
 				<div class="container clearfix py-2">
 					<div class="row my-1 py-6">
-                        <table>
-                            <tr>
-                              <th>No.</th>
-                              <th>Nombre</th>
-                              <th>Sector</th>
-                              <th>Fecha</th>
-                              <th>Descripcion</th>
-                              <th>Enlace</th>
-                              <th>Formato</th>
-                            </tr>
-                            {% for dato in  collections.datosabiertos%}
-                            <tr class="tr_table">
-                              <td>{{dato.data.numero}}</td>
-                              <td>{{dato.data.title}}</td>
-                              <td>{{dato.data.sector}}</td>
-                              <td>{{dato.data.fecha | dateFormat('DD/MM/YYYY')}}</td>
-                              <td>{{dato.data.descripcion}}</td>
-                              <td><a href="{{dato.data.enlace}}" class="page-button">Descarga</a></td>
-                              <td><span class="page-button">{{dato.data.formato}}</span></td>
-                            </tr>
-                            {% endfor %}
-                       
-                          </table>
+            <div class="col-lg-12">
+              <div class="table-container">
+                <div class="table-header">
+                    <div class="table-cell" style="flex:0.3"><!--i class="fa-regular fa-user" style="padding-right:5px"--></i>Nombre</div>
+                    <div class="table-cell" style="flex:0.1">Sector</div>
+                    <div class="table-cell" style="flex:0.1">Fecha</div>
+                    <div class="table-cell" style="flex:0.3">Descripción</div>
+                    <div class="table-cell" style="flex:0.1">Enlace</div>
+                    <div class="table-cell" style="flex:0.1">Formato</div>
+                </div>
+                <div class="table-body">
+                  {% for dato in  collections.datosabiertos%}
+                    <div class="table-row">
+                        <div class="table-cell"  style="flex:0.3"> {{dato.data.numero}}</div>
+                        <div class="table-cell"  style="flex:0.1">{{dato.data.sector}}</div>
+                        <div class="table-cell"  style="flex:0.1"> {{dato.data.fecha | dateFormat('DD/MM/YYYY')}}</div>
+                        <div class="table-cell"  style="flex:0.3">{{dato.data.descripcion}}</div>
+                        <div class="table-cell"  style="flex:0.1"> {{dato.data.formato}}</div>
+                        <div class="table-cell" style="display:block;text-align:center;flex:0.1">
+                            <a href="{{dato.data.enlace}}" class="page-button">Descarga </a>
+                        </div>
                     </div>
+                    {% endfor %}
                 </div>
             </div>
+          </div>
         </section>
 
 {% endblock %}

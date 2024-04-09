@@ -19583,13 +19583,12 @@ label.checkbox {
 }
 
 table{
-  border: 2px solid black;
   border-radius: 5px;
   margin: 30px 0;
 }
 
 table tr {
-  border-bottom: 1px solid black!important;
+  margin: 10px 0;
   padding: 20px;
 }
 
@@ -19602,6 +19601,61 @@ table tr td{
 }
 
 .tr_table{
-  background-color: #efefef;
-  border-radius: 15px;
+  background-color: #fff;
+  border-radius: 15px!important;
+  border: 1px solid black;
+  margin: 10px 0!important;
+}
+
+@media only screen and (max-width: 960px) {
+  .img_especial {
+      display: none;
+  }
+  .table-row{
+    display: block!important;
+  }
+  .justify-content-end-custom{
+    justify-content: start!important;
+  }
+}
+
+.table-container {
+  width: 100%;
+}
+
+.table-row {
+  display: flex;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px 0;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 15px;
+  text-align: start;
+  display: flex;
+}
+
+.table-cell img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Estilos para el encabezado de la "tabla" */
+.table-header {
+  display: flex;
+  border-radius: 10px;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.table-header .table-cell {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
 }
