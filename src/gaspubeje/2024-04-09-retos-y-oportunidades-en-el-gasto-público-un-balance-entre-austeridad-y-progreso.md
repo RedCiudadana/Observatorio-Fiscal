@@ -1,7 +1,7 @@
 ---
 title: "Retos y Oportunidades en el Gasto Público: Un Balance entre Austeridad y
   Progreso"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: " Este análisis profundiza en cómo los desafíos económicos están
   moldeando el gasto público en Guatemala y explora las estrategias para
   encontrar un equilibrio entre la austeridad necesaria y las inversiones
