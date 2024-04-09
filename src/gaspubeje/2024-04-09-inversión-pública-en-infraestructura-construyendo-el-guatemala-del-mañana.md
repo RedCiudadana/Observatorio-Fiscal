@@ -1,6 +1,6 @@
 ---
 title: "Inversión Pública en Infraestructura: Construyendo el Guatemala del Mañana"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Este análisis examina cómo estas inversiones no solo facilitan el
   desarrollo económico, sino que también promueven la cohesión social, mejorando
   la calidad de vida de los ciudadanos.
