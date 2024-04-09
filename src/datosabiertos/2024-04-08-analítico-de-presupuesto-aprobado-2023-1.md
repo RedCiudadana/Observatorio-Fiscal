@@ -1,6 +1,6 @@
 ---
 title: Analítico de Presupuesto Aprobado 2023
-numero: "4"
+numero: Analítico de Presupuesto Aprobado 2023
 sector: Ejecutivo
 fecha: 2024-04-08T21:12:11.607Z
 descripcion: Analítico de Presupuesto Aprobado 2023
