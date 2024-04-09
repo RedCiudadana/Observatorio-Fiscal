@@ -19680,19 +19680,19 @@ table tr td{
 
 .video-wrapper {
   position: relative;
-  width: 100%; /* Ajusta esto según necesites */
-  height: 500px; /* Ajusta esto según necesites */
+  width: 100%;
+  height: 600px;
 }
 
-#video-cover {
+.video-cover {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1; /* Asegúrate de que la portada esté sobre el video */
+  z-index: 1;
 }
 
-#video-element {
+.video-element {
   width: 100%;
   height: 100%;
-  background-color: black; /* Fondo para el video */
+  background-color: black;
 }

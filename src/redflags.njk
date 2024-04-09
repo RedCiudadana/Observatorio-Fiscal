@@ -47,9 +47,16 @@ permalink: "/redflags/index.html"
             </div>
             <div class="row">
                 <div class="col-lg-10 col-xl-10 col-sm-12 col-md-12 mb-40 m-auto">
-                    <video width='100%' height='500' autoplay loop> 
-                        <source src="/elementos/redflag1.mp4" >
-                    </video>
+                    <div class="video-wrapper">
+                        <div class="video-cover" onclick="playVideo(this)">
+                            <!-- Imagen de portada para el primer video -->
+                            <img src="/elementos/rerdflags/WEB_IMG-12.png" alt="Cover" style="width:100%;height:100%;cursor:pointer;">
+                        </div>
+                        <video class="video-element" width="100%" height="500" loop>
+                            <source src="/elementos/redflag1.mp4" type="video/mp4">
+                            Tu navegador no soporta videos HTML5.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,9 +74,16 @@ permalink: "/redflags/index.html"
             </div>
             <div class="row">
                 <div class="col-lg-10 col-xl-10 col-sm-12 col-md-12 mb-40 m-auto">
-                    <video width='100%' height='500' autoplay loop> 
-                        <source src="/elementos/redflag2.mp4" >
-                    </video>
+                    <div class="video-wrapper">
+                        <div class="video-cover" onclick="playVideo(this)">
+                            <!-- Imagen de portada para el primer video -->
+                            <img src="/elementos/rerdflags/WEB_IMG-13.png" alt="Cover" style="width:100%;height:100%;cursor:pointer;">
+                        </div>
+                        <video class="video-element" width="100%" height="500" loop>
+                            <source src="/elementos/redflag2.mp4" type="video/mp4">
+                            Tu navegador no soporta videos HTML5.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,9 +107,16 @@ permalink: "/redflags/index.html"
             </div>
             <div class="row">
                 <div class="col-lg-10 col-xl-10 col-sm-12 col-md-12 mb-40 m-auto">
-                    <video width='100%' height='500' autoplay loop> 
-                        <source src="/elementos/redflag3.mp4" >
-                    </video>
+                    <div class="video-wrapper">
+                        <div class="video-cover" onclick="playVideo(this)">
+                            <!-- Imagen de portada para el primer video -->
+                            <img src="/elementos/rerdflags/WEB_IMG-14.png" alt="Cover" style="width:100%;height:100%;cursor:pointer;">
+                        </div>
+                        <video class="video-element" width="100%" height="500" loop>
+                            <source src="/elementos/redflag3.mp4" type="video/mp4">
+                            Tu navegador no soporta videos HTML5.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,9 +134,16 @@ permalink: "/redflags/index.html"
             </div>
             <div class="row">
                 <div class="col-lg-10 col-xl-10 col-sm-12 col-md-12 mb-40 m-auto">
-                    <video width='100%' height='500' autoplay loop> 
-                        <source src="/elementos/redflag4.mp4" >
-                    </video>
+                    <div class="video-wrapper">
+                        <div class="video-cover" onclick="playVideo(this)">
+                            <!-- Imagen de portada para el primer video -->
+                            <img src="/elementos/rerdflags/WEB_IMG-15.png" alt="Cover" style="width:100%;height:100%;cursor:pointer;">
+                        </div>
+                        <video class="video-element" width="100%" height="500" loop>
+                            <source src="/elementos/redflag4.mp4" type="video/mp4">
+                            Tu navegador no soporta videos HTML5.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,9 +161,16 @@ permalink: "/redflags/index.html"
             </div>
             <div class="row">
                 <div class="col-lg-10 col-xl-10 col-sm-12 col-md-12 mb-40 m-auto">
-                    <video width='100%' height='500' autoplay loop> 
-                        <source src="/elementos/redflag5.mp4" >
-                    </video>
+                    <div class="video-wrapper">
+                        <div class="video-cover" onclick="playVideo(this)">
+                            <!-- Imagen de portada para el primer video -->
+                            <img src="/elementos/rerdflags/WEB_IMG-16.png" alt="Cover" style="width:100%;height:100%;cursor:pointer;">
+                        </div>
+                        <video class="video-element" width="100%" height="500" loop>
+                            <source src="/elementos/redflag5.mp4" type="video/mp4">
+                            Tu navegador no soporta videos HTML5.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -145,5 +180,21 @@ permalink: "/redflags/index.html"
 
 {% block body_javascripts %}
 
+
+<script>
+
+function playVideo(cover) {
+  // Encuentra el contenedor padre
+  var container = cover.parentElement;
+
+  // Oculta la portada
+  cover.style.display = 'none';
+
+  // Encuentra el video dentro del contenedor y lo reproduce
+  var video = container.querySelector('.video-element');
+  video.play();
+}
+
+</script>
 
 {% endblock %}
