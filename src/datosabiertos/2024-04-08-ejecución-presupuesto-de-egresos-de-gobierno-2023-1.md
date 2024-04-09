@@ -1,6 +1,6 @@
 ---
 title: Ejecución Presupuesto de Egresos de Gobierno 2023
-numero: "9"
+numero: Ejecución Presupuesto de Egresos de Gobierno 2023
 sector: Ejecutivo
 fecha: 2024-04-08T21:22:47.546Z
 descripcion: Presenta datos de la ejecución analítica del presupuesto de egresos
