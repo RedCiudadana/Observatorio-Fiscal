@@ -5,7 +5,7 @@ description: Este análisis profundiza en la importancia del gasto en cultura y
   recreación, examinando cómo las inversiones en arte, deporte y espacios
   públicos contribuyen al bienestar social y al desarrollo humano.
 autor: Red Ciudadana
-correo: jherrera@redciudadana.org.gt
+correo: info@redciudadana.org.gt
 date: 2024-04-09T00:41:15.142Z
 highlight: false
 ---
