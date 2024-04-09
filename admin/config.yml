@@ -325,7 +325,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { name: "title", label: "Nombre del Recurso" }
       - { name: "fecha", label: "Fecha", widget: "date"}
-      - { name: "descripcion", label: "Descripción" }
+      - { name: "descripcion", label: "Descripción", widget: "markdown" }
       - { name: "enlace", label: "Enlace"}
       
 

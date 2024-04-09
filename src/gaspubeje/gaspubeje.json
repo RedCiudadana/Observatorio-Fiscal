@@ -1,5 +1,5 @@
 {
     "tags": "gaspubeje",
     "permalink": "gaspubeje/{{ page.fileSlug }}/index.html",
-    "layout": "layouts/blog.njk"
+    "layout": "layouts/blogeje.njk"
 }

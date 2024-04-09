@@ -237,7 +237,7 @@ permalink: "index.html"
 							{% for video in collections.videos | reverse | limit(4)%}
 							<div class="entry ">
 								<div class="grid-inner">
-									<iframe height="155px" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									{{ video.data.link | safe}}
 									<p class="txt-video">{{video.data.description}}</p>
 								</div>
 								
