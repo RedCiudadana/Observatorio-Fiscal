@@ -1,6 +1,6 @@
 ---
 title: Analítico de Presupuesto Aprobado 2024
-numero: "1"
+numero: Analítico de Presupuesto Aprobado 2024
 sector: Ejecutivo
 fecha: 2024-04-08T21:10:21.777Z
 descripcion: Analítico de Presupuesto Aprobado 2024
