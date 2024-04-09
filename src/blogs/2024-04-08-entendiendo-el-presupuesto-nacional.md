@@ -1,6 +1,6 @@
 ---
 title: Entendiendo el Presupuesto Nacional
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: El presupuesto nacional es uno de los documentos más críticos en la
   administración pública, delineando cómo el gobierno planea recaudar y gastar
   dinero dentro de un período fiscal.
