@@ -1,7 +1,7 @@
 ---
 title: "Decodificando el Gasto en Salud en Guatemala: ¿Hacia Dónde van Nuestros
   Recursos?"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Este análisis detallado busca entender cómo se asignan los fondos
   en el sector de la salud, desde la prevención hasta la atención en hospitales
   especializados, y cómo estas inversiones impactan la salud pública del país.
