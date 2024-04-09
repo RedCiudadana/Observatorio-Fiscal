@@ -1,7 +1,7 @@
 ---
 title: "La Realidad del Gasto en Servicios Públicos: Entre la Necesidad y la
   Eficiencia"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Una evaluación crítica de este gasto no solo revela las prioridades
   del gobierno, sino que también muestra cómo la inversión en estos sectores es
   fundamental para el desarrollo socioeconómico del país.
