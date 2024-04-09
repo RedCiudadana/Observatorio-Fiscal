@@ -124,7 +124,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { name: "title", label: "Title" }
       - { name: "description", label: "Description" }
-      - { name: "link", label: "Enlace de podcast" }
+      - { name: "link", label: "Enlace del video" }
       - { name: "date", label: "Date", widget: "datetime" }
       - {
           name: "highlight",
