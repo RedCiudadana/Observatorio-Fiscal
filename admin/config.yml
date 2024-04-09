@@ -148,15 +148,10 @@ collections:
       - { name: "resumen2", label: "Resumen Ejecutado" }
       - { name: "resumen3", label: "Resumen Porcentaje" }
       - { name: "grafica", label: "Gráfica Ejecucion", widget: "markdown" }
-      - {
-          name: "fechaactualizaciong",
-          label: "Fecha de Actualización de Gráfica",
-          widget: "date",
-        }
       - { name: "tabla", label: "Tabla Ejecución", widget: "markdown" }
       - {
-          name: "fechaactualizaciont",
-          label: "Fecha de Actualización de Tabla",
+          name: "fechaactualizacion",
+          label: "Fecha de Actualización",
           widget: "date",
         }
       - { name: "herramientaanalisis", label: "Herramienta de Análisis" }
@@ -182,15 +177,10 @@ collections:
       - { name: "resumen2", label: "Resumen Ejecutado" }
       - { name: "resumen3", label: "Resumen Porcentaje" }
       - { name: "grafica", label: "Gráfica Ejecucion", widget: "markdown" }
-      - {
-          name: "fechaactualizaciong",
-          label: "Fecha de Actualización de Gráfica",
-          widget: "date",
-        }
       - { name: "tabla", label: "Tabla Ejecución", widget: "markdown" }
       - {
-          name: "fechaactualizaciont",
-          label: "Fecha de Actualización de Tabla",
+          name: "fechaactualizacion",
+          label: "Fecha de Actualización",
           widget: "date",
         }
       - { name: "herramientaanalisis", label: "Herramienta de Análisis" }
