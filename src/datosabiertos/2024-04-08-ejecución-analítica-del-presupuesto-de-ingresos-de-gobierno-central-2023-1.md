@@ -1,6 +1,6 @@
 ---
 title: Ejecución analítica del Presupuesto de Ingresos de Gobierno Central 2023.
-numero: "7"
+numero: Ejecución analítica del Presupuesto de Ingresos de Gobierno Central 2023.
 sector: Ejecutivo
 fecha: 2024-04-08T21:20:43.362Z
 descripcion: Ejecución analítica del Presupuesto de Ingresos de Gobierno Central 2023.
