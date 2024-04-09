@@ -1,6 +1,6 @@
 ---
 title: "Educación en Guatemala: Inversión para el Futuro"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Este análisis detallado explora la distribución del presupuesto
   educativo en Guatemala, examinando la infraestructura escolar, la capacitación
   docente, y los programas de educación inclusiva y tecnológica, para evaluar si

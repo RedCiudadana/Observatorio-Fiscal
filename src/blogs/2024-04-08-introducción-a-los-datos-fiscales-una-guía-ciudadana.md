@@ -1,6 +1,6 @@
 ---
 title: "Introducción a los Datos Fiscales: Una Guía Ciudadana"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Entender los datos fiscales es esencial para cualquier ciudadano,
   estudiante, representante de la sociedad civil o funcionario de gobierno que
   desee participar activamente en la gobernanza y el desarrollo económico de su

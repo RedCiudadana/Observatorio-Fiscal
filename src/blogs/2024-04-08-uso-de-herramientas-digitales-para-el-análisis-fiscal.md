@@ -1,6 +1,6 @@
 ---
 title: Uso de Herramientas Digitales para el Análisis Fiscal
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: En la era de la información, las herramientas digitales han
   transformado radicalmente el análisis fiscal, ofreciendo nuevas oportunidades
   para profundizar en la comprensión de las finanzas públicas.

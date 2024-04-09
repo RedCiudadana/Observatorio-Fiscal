@@ -1,6 +1,6 @@
 ---
 title: Desglosando los Informes Financieros
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: "Los informes financieros son documentos clave que proporcionan una
   instantánea detallada de la salud económica de una entidad, en este caso, el
   gobierno. "

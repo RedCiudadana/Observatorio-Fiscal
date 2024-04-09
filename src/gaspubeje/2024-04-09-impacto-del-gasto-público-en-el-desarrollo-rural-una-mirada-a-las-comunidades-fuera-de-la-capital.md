@@ -1,7 +1,7 @@
 ---
 title: "Impacto del Gasto Público en el Desarrollo Rural: Una Mirada a las
   Comunidades Fuera de la Capital"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Este análisis se enfoca en cómo el gasto público está siendo
   canalizado hacia el desarrollo rural y el impacto de estas inversiones en las
   vidas de las personas en estas regiones.
