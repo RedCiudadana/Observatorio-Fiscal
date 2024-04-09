@@ -1,6 +1,6 @@
 ---
 title: "La Inversión en Justicia: Más Allá de los Números"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: "La calidad de la justicia en Guatemala está intrínsecamente ligada
   a la inversión en su sistema judicial. "
 autor: Red Ciudadana
