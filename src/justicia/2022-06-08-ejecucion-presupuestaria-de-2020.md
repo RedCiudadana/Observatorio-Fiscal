@@ -2,8 +2,8 @@
 title: Ejecucion Presupuestaria de 2023
 ano: "2023"
 slider: /assets/images/posts/web_pa_elementos.png
-resumen1: "8926506978.08"
-resumen2: "7181509561.75"
+resumen1: 8,926,506,978.08
+resumen2: 7,181,509,561.75
 resumen3: 80%
 grafica: <div class="flourish-embed flourish-hierarchy"
   data-src="visualisation/16887644"><script
