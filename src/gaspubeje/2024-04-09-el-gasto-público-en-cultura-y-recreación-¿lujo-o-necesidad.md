@@ -1,6 +1,6 @@
 ---
 title: "El Gasto Público en Cultura y Recreación: ¿Lujo o Necesidad?**"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Este análisis profundiza en la importancia del gasto en cultura y
   recreación, examinando cómo las inversiones en arte, deporte y espacios
   públicos contribuyen al bienestar social y al desarrollo humano.
