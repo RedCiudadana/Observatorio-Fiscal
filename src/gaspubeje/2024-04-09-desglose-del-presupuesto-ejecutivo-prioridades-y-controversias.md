@@ -1,6 +1,6 @@
 ---
 title: "Desglose del Presupuesto Ejecutivo: Prioridades y Controversias"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Este análisis busca proporcionar una visión clara de las políticas
   gubernamentales a través de un desglose de las prioridades de gasto y las
   áreas más controversiales.
