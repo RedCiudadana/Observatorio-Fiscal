@@ -19573,13 +19573,31 @@ label.checkbox {
 }
 
 .blog-box div h5{
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 600;
+
+  overflow: hidden;
+  height: 60px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .blog-box div p{
   font-size: 15px;
-  margin-bottom: 0;
+  margin: 5px 0;
+
+  overflow: hidden;
+  height: 90px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.blog-box div p:hover{
+  color: #000;
 }
 
 table{

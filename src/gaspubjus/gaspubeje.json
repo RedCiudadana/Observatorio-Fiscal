@@ -1,5 +1,0 @@
-{
-    "tags": "gaspubjus",
-    "permalink": "gaspubjus/{{ page.fileSlug }}/index.html",
-    "layout": "layouts/blog.njk"
-}
