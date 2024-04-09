@@ -19557,16 +19557,18 @@ label.checkbox {
 .blog-box{
   display: block;
   height: 30%;
+  box-shadow: 5px 5px 5px #ccc;
+  border-radius: 5px;
 }
 
 .blog-box img{
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #ccc;
   border-radius: 5px 5px 0 0;
 }
 
 .blog-box div{
-  border: 1px solid black;
+  border: 1px solid #ccc;
   padding: 5%;
   height: 100%;
   border-radius: 0 0 5px 5px;
@@ -19695,4 +19697,17 @@ table tr td{
   width: 100%;
   height: 100%;
   background-color: black;
+}
+
+.box_full{
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.div_box{
+  padding: 5%;
+}
+
+.div_box h1{
+  font-size: 20px;
 }

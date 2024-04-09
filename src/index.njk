@@ -292,6 +292,42 @@ permalink: "index.html"
             </div>
         </section> -->
 
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap py-4">
+
+				<!-- Nosotros
+				============================================= -->
+
+				<div class="container clearfix py-2">
+					<div class="row my-1 pt-1 pb-6">
+						<div class="col-lg-12">
+							<h2 class="text-titles">Recursos </h2>
+						</div>
+
+						{% for recurso in collections.recursos %}
+						<div class="col-lg-6">
+							<a href="{{recurso.data.enlace}}" target="_blank">
+								<div class="d-flex box_full">
+									<img src="{{recurso.data.image}}">
+									<div class="div_box">
+										<h1>{{recurso.data.title}}</h1>
+										<p>{{recurso.data.descripcion}}</p>
+										<br><br>
+										<a href="{{recurso.data.enlace}}" target="_blank" class="page-button">Ve el recurso</a>
+									</div>
+								</div>
+							</a>
+						</div>
+						{% endfor %}
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
 {% endblock %}
 
 {% block body_javascripts %}
