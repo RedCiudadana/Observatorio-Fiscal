@@ -1,7 +1,7 @@
 ---
 title: "Desglose del Gasto en Seguridad y Justicia en Guatemala: Un Análisis
   Detallado"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: "El gasto en seguridad y justicia juega un papel vital en la
   estabilidad y el desarrollo del país. "
 autor: Red Ciudadana
