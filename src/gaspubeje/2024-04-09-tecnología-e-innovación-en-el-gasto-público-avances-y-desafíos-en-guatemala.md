@@ -1,6 +1,6 @@
 ---
 title: "Tecnología e Innovación en el Gasto Público: Avances y Desafíos en Guatemala"
-image: /assets/images/posts/podcast-1-.png
+image: /assets/images/posts/web_img-17.png
 description: Este análisis se enfoca en cómo el gobierno guatemalteco está
   invirtiendo en tecnología e innovación dentro de los servicios públicos y
   evalúa el impacto de estas inversiones en la modernización del país.
