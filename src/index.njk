@@ -15,7 +15,7 @@ permalink: "index.html"
 		<section id="slider" class="slider-element bg-color" style="background-image: url('/elementos/SLIDER/SLIDERS/2000x300/WEB_PA_ELEMENTOS_04.png');background-size:cover;">
 			<div class="container" style="padding: 20px 0;">
 				<div class="row d-flex">
-					<div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+					<div class="col-lg-8 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
 
 						<h2 class="text-slider">Navega por nuestra plataforma para descubrir cómo se gestionan los fondos públicos y participa activamente en la construcción de un futuro más transparente y justo para todos.
 						</h2>
@@ -34,7 +34,7 @@ permalink: "index.html"
 				<!-- Nosotros
 				============================================= -->
 
-				<div class="container clearfix py-2">
+				<div class="container clearfix py-6">
 					<div class="row my-1 py-1">
 						<h2 class="text-titles">Datos Sobre Presupuesto: </h2>
 						<h2 class="text-titles2">Fecha de Última Actualización {{item.data.fechaactualizaciong | dateFormat('DD/MM/YYYY')}}</h2>
@@ -194,65 +194,63 @@ permalink: "index.html"
 
 		<!-- Blogs y Podcasts
 		============================================= -->
-		<section>
-			<div>
-				<div class="container my-2">
-					<div class="row text-center mb-5"  style="gap:60px;align-items:flex-start">
+		<section style="background-color: #e7ecf3;">
+			<div class="container py-6" >
+				<div class="row text-center mb-5"  style="gap:60px;align-items:flex-start">
 
-						<div class="row posts-md col-mb-30 col-xl-8 col-sm-12">
+					<div class="row posts-md col-mb-30 col-xl-8 col-sm-12">
 
-							<h2 class="text-titles" style="text-align:left;margin:1rem 0">Lo último</h2>
+						<h2 class="text-titles" style="text-align:left;margin:1rem 0">Lo último</h2>
 
-							{% for blog in collections.blogs | reverse | limit(5) %}
-					
+						{% for blog in collections.blogs | reverse | limit(5) %}
 				
-							<a href="{{blog.url}}" class="flex border-b-2 pb-4 mb-4 text-current responsive">
-							<img src="{{ blog.data.image }}" alt="Evento" class="w-36">
-							<div class="pl-8 my-auto" style="text-align:left">
-								<h5 class="font-bold text-lg">
-								{{blog.data.title }}
-								</h5>
-								<span class="text-sm">
-								{{blog.data.date | dateFormat('DD/MM/YYYY')}}
-								</span><br>
-								<span class="text-sm">
-								{{blog.data.description}}
-								</span>
-							</div>
-							</a>
+			
+						<a href="{{blog.url}}" class="flex border-b-2 pb-4 mb-4 text-current responsive">
+						<img src="{{ blog.data.image }}" alt="Evento" class="w-36">
+						<div class="pl-8 my-auto" style="text-align:left">
+							<h5 class="font-bold text-lg">
+							{{blog.data.title }}
+							</h5>
+							<span class="text-sm">
+							{{blog.data.date | dateFormat('DD/MM/YYYY')}}
+							</span><br>
+							<span class="text-sm">
+							{{blog.data.description}}
+							</span>
+						</div>
+						</a>
 
-							{% endfor %}
+						{% endfor %}
 
-							<div class="mb-6" style="display:flex; justify-content:flex-end">
-								<a href="/blogs/index.html"><p class="page-button my-2">Más Blogs<i class="icon-arrow-right" style="margin-left:5px"></i></p></a>
-							</div>
-
-							
-				
+						<div class="mb-6" style="display:flex; justify-content:flex-end">
+							<a href="/blogs/index.html"><p class="page-button my-2">Más Blogs<i class="icon-arrow-right" style="margin-left:5px"></i></p></a>
 						</div>
 
-						<div class="row posts-md col-mb-30 col-xl-3 col-sm-12">
-							<h3 class="text-titles2"style="text-align:left;margin:1rem 0">Videos</h3>
-
-							{% for video in collections.videos | reverse | limit(4)%}
-							<div class="entry ">
-								<div class="grid-inner">
-									{{ video.data.link | safe}}
-									<p class="txt-video">{{video.data.description}}</p>
-								</div>
-								
-							</div>
-							{% endfor %}
-
-							<div class="mb-6">
-								<div style="display:flex; justify-content:flex-end">
-								<a href="/videos/index.html"><p class="page-button my-2">Más Videos<i class="icon-arrow-right" style="margin-left:5px"></i></p></a>
-							</div>	
-						</div>	
 						
+			
+					</div>
 
+					<div class="row posts-md col-mb-30 col-xl-3 col-sm-12">
+						<h3 class="text-titles2"style="text-align:left;margin:1rem 0">Videos</h3>
+
+						{% for video in collections.videos | reverse | limit(4)%}
+						<div class="entry ">
+							<div class="grid-inner">
+								{{ video.data.link | safe}}
+								<p class="txt-video">{{video.data.description}}</p>
+							</div>
+							
+						</div>
+						{% endfor %}
+
+						<div class="mb-6">
+							<div style="display:flex; justify-content:flex-end">
+							<a href="/videos/index.html"><p class="page-button my-2">Más Videos<i class="icon-arrow-right" style="margin-left:5px"></i></p></a>
+						</div>	
 					</div>	
-				</div>
+					
+
+				</div>	
 			</div>
 		</section>
 

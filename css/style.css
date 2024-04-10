@@ -19489,12 +19489,21 @@ label.checkbox {
   transition: all ease 0.3s;
 }
 
+.cuadro_new img{
+  transition: filter 0.5s ease;
+  filter: invert(0); /* No inversion initially */
+}
+
 .cuadro_new:hover{
   background-color: #000;
 }
 
 .cuadro_new:hover p,.cuadro_new:hover h1{
   color: #fff!important;
+}
+
+.cuadro_new:hover img{
+  filter: invert(1);
 }
 
 .redes{
@@ -19559,6 +19568,11 @@ label.checkbox {
   height: 30%;
   box-shadow: 5px 5px 5px #ccc;
   border-radius: 5px;
+  transition: 0.5s all ease;
+}
+
+.blog-box:hover{
+  transform: translate(5px, 5px);
 }
 
 .blog-box img{
@@ -19576,19 +19590,26 @@ label.checkbox {
 
 .blog-box div h5{
   font-size: 20px;
+  line-height: 20px;
   font-weight: 600;
+  margin-bottom: 10px;
 
   overflow: hidden;
   height: 60px;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.blog-box span{
+  color: #000!important;
 }
 
 .blog-box div p{
   font-size: 15px;
   margin: 5px 0;
+  color: #000!important;
 
   overflow: hidden;
   height: 90px;
@@ -19710,4 +19731,9 @@ table tr td{
 
 .div_box h1{
   font-size: 20px;
+}
+
+.redes-img{
+  width: 70px;
+  filter: brightness(0%);
 }
