@@ -13,7 +13,7 @@ tabla: <div class="flourish-embed flourish-table"
   src="https://public.flourish.studio/resources/embed.js"></script></div>
 fechaactualizacion: 2024-04-09T22:06:19.992Z
 herramientaanalisis: <div class="flourish-embed"
-  data-src="story/2318902"><script
+  data-src="story/2318914"><script
   src="https://public.flourish.studio/resources/embed.js"></script></div>
 fechaactualizaciont: 2024-03-15T16:56:01.054Z
 highlight: true
