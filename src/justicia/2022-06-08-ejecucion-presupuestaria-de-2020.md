@@ -6,15 +6,16 @@ resumen1: 8,926,506,978.08
 resumen2: 7,181,509,561.75
 resumen3: 80%
 grafica: <div class="flourish-embed flourish-hierarchy"
-  data-src="visualisation/16887644"><script
+  data-src="visualisation/17492852"><script
   src="https://public.flourish.studio/resources/embed.js"></script></div>
-fechaactualizaciong: 2022-06-13T16:56:01.031Z
 tabla: <div class="flourish-embed flourish-table"
-  data-src="visualisation/16887679"><script
+  data-src="visualisation/17492880"><script
   src="https://public.flourish.studio/resources/embed.js"></script></div>
-fechaactualizaciont: 2024-03-15T16:56:01.054Z
+fechaactualizacion: 2024-04-09T22:06:19.992Z
 herramientaanalisis: <div class="flourish-embed"
   data-src="story/2318902"><script
   src="https://public.flourish.studio/resources/embed.js"></script></div>
+fechaactualizaciont: 2024-03-15T16:56:01.054Z
 highlight: true
+fechaactualizaciong: 2022-06-13T16:56:01.031Z
 ---
