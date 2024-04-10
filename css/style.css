@@ -19693,6 +19693,7 @@ table tr td{
   border-radius: 10px;
   margin: 10px 0;
   align-items: center;
+  font-weight: 600;
 }
 
 .table-header .table-cell {
