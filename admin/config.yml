@@ -320,7 +320,7 @@ collections:
       - { name: "enlace", label: "Enlace"}
   - name: "redflags"
     label: "Red Flags"
-    folder: "src/recursos"
+    folder: "src/redflags"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
