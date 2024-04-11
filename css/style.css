@@ -91,25 +91,25 @@
 @font-face {
   font-family: "Poppins-Bold";
 
-  src: url("elementos/03_FUENTE/Poppins-Bold.otf");
+  src: url("/elementos/03_FUENTE/Poppins-Bold.otf");
 }
 
 @font-face {
   font-family: "Poppins-Medium";
 
-  src: url("elementos/03_FUENTE/Poppins-Medium.otf");
+  src: url("/elementos/03_FUENTE/Poppins-Medium.otf");
 }
 
 @font-face {
   font-family: "Poppins-Regular";
 
-  src: url("elementos/03_FUENTE/Poppins-Regular.otf");
+  src: url("/elementos/03_FUENTE/Poppins-Regular.otf");
 }
 
 @font-face {
   font-family: "Poppins-SemiBold";
 
-  src: url("elementos/03_FUENTE/Poppins-SemiBold.otf");
+  src: url("/elementos/03_FUENTE/Poppins-SemiBold.otf");
 }
 
 /* ----------------------------------------------------------------
