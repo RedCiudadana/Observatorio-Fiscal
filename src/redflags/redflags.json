@@ -1,0 +1,5 @@
+{
+    "tags": "redflags",
+    "permalink": "redflags/{{ page.fileSlug }}/index.html",
+    "layout": "layouts/redflag.njk"
+}

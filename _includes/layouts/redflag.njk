@@ -1,0 +1,39 @@
+{% extends "src/base.njk" %}
+
+{% block head %}
+<title>{{ title }}</title>
+{% endblock %}
+
+{% block content %}
+
+        <!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element bg-color" style="background-image: url('/elementos/rerdflags/REDF-12.png');background-size:100%;background-repeat:no-repeat;background-position: center;">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-lg-8 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+
+						<h2 class="text-slider" style="font-size:40px!important">{{title}}</h2>
+						<h2 class="text-slider2">
+                            {{descripcion | safe}}
+						</h2>
+
+					</div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-end align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+
+						<img src="/elementos/rerdflags/REDF-05.png">
+
+					</div>
+				</div>
+			</div>
+        </section>
+
+        <div class="container">
+            <div class="row p-6">
+                <div class="col-lg-10 m-auto overflow-hidden">
+                    {{enlace | safe}}
+                </div>
+            </div>
+        </div>
+{% endblock %}

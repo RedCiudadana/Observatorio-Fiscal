@@ -5,7 +5,7 @@ fecha: 2024-04-11T15:31:01.748Z
 descripcion: |-
   <!--StartFragment-->
 
-  \
+  
   Concursantes Inusuales por Baja Frecuencia de Participación.
 
   <!--EndFragment-->
