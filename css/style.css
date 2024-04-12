@@ -6084,7 +6084,7 @@ body:not(.top-search-open)
 
 .text-titles{
   color: #000!important;
-  font-family: 'Poppins-Regular', sans-serif!important;
+  font-family: 'Poppins-Bold', sans-serif!important;
   font-size: 25px!important;
   line-height: 30px;
   font-weight: 900!important;
@@ -19416,6 +19416,27 @@ label.checkbox {
   max-width: 100px;
 }
 
+/*page loading*/
+.preloader2 {
+  background-color: #f1d61b;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  -webkit-transition: .6s;
+  transition: .6s;
+  margin: 0 auto;
+}
+
+.preloader2 img.jump {
+  max-height: 100px;
+  max-width: 100px;
+}
+
 .contact_form{
   width: 100%;
 }
@@ -19722,7 +19743,9 @@ table tr td{
 
 .box_full{
   border: 1px solid #ccc;
-  box-shadow: 5px 5px 5px #ccc;
+  /* box-shadow: 5px 5px 5px #ccc; */
+  height: 100%;
+  display: flex;
 }
 
 .div_box{
@@ -19731,9 +19754,35 @@ table tr td{
 
 .div_box h1{
   font-size: 20px;
+  color: #000;
+
+  overflow: hidden;
+  height: 60px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.div_box p{
+  color: #000;
+}
+
+.div_box p{
+  font-size: 15px;
+  margin: 5px 0;
+  color: #000!important;
+
+  overflow: hidden;
+  height: 110px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 .redes-img{
   width: 70px;
   filter: brightness(0%);
 }
+
