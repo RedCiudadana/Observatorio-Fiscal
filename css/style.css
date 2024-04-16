@@ -4235,6 +4235,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     margin:5px 0;
     transition: 0.5s;
     line-height: 30px;
+    font-size: 13px;
   }
 
   .sub-menu-item a:hover{
